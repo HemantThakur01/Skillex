@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 0px 60px;
+}
+.main-sect{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+
+background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.nav-frst{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-frst ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-frst h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+.nav-frst span{
+    font-size: 34px;
+    font-weight: 500;
+    color: aqua;
+}
+.nav-frst li{
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav-scnd{
+    width: 13%;
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-scnd li{
+    font-size: 14px;
+    font-weight: 400;
+    list-style: none;
+}
+.free-btn{
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.main-frst{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    /* background-color: brown; */
+    padding: 55px 70px;
+}
+.text-div{
+    width: 40%;
+}
+.text-div h1{
+    font-size: 51px;
+    font-weight: 500;
+}
+.btn-div{
+    display: flex;
+    padding-top: 50px;  
+}
+.find-btn{
+    height: 40px;
+    width: 200px;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+}
+.go-btn{
+    height: 40px;
+    width: 60px;
+    background-color:  rgb(134, 193, 44);
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+}
+.frst-img{
+    height: 55vh;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./frst.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+.frst-img h1{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 260px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+.frst-img h2{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 260px;
+    margin-right: 20px;
+    color: white;
+}
+.frst-img span{
+    font-size: 14px;
+}
+.scnd-img{
+    height: 55vh;
+    width: 13%;
+    background-image: url(./scnd.jpg);
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.scnd-img h1{
+    font-size: 21px;
+    font-weight: 400;
+    transform: rotate(268deg);
+    margin-top: 250px;
+    color: white;
+}
+.third-img{
+    height: 55vh;
+    width: 13%;
+    background-image: url(./boy.jpg);
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.third-img h1{
+    font-size: 21px;
+    font-weight: 400;
+    transform: rotate(268deg);
+    margin-top: 250px;
+    color: white;
+}
+.main-scnd{
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0px;
+}
+.main-scnd h1{
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.main-scnd ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+.main-scnd li{
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+}
+.last-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 210px;
+}
+.pink{
+    width: 170px;
+    height: 33px;
+    background-color: pink;
+    border-radius: 10px 10px 0px 0px;
+}
+.green{
+    width: 170px;
+    height: 33px;
+    background-color: rgb(134, 193, 44);
+    border-radius: 10px 10px 0px 0px;
+}
+.grey{
+    width: 170px;
+    height: 33px;
+    background-color: gainsboro;
+    border-radius: 10px 10px 0px 0px;
+}
+.purple{
+    width: 170px;
+    height: 33px;
+    background-color: violet;
+    border-radius: 10px 10px 0px 0px;
+}
